@@ -1,0 +1,13 @@
+﻿<Application x:Class="ApplicationLifeCycle.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="App.xaml"
+    DispatcherUnhandledException="Application_DispatcherUnhandledException"             
+    Startup="Application_Startup"
+    Exit="Application_Exit"
+    Activated="Application_Activated"
+    Deactivated="Application_Deactivated"    
+    SessionEnding="Application_SessionEnding"             
+    ShutdownMode="OnMainWindowClose"
+             >    
+</Application>
